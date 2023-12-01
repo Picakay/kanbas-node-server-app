@@ -16,7 +16,8 @@ app.use(cors(
     {
         credentials: true,
         // origin: '*',
-        origin: process.env.FRONTEND_URL
+        // origin: process.env.FRONTEND_URL
+        origin: 'https://a6--tiny-selkie-ad895e.netlify.app'
       }     
 ));
 const sessionOptions = {
